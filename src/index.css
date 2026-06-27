@@ -77,4 +77,19 @@
   .animation-fade-in{
     animation: fadeIn 0.8s ease-out both;
   }
+
+  @keyframes slow-drift {
+    0% {
+      transform: translate(0, 0);
+    }
+    33% {
+      transform: translate(30px, -40px);
+    }
+    66% {
+      transform: translate(-20px, 25px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
 }

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+@theme  {
   --color-background: #0b1120;
   --color-foreground: #f8fafc;
 
@@ -18,4 +18,21 @@
   --color-border: #334155;
 
   --radius: 0.75rem;
+}
+
+@layer base{
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-serif{
+    font-family: 'Playfair Display', serif;
+  }
 }

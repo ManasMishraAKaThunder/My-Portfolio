@@ -6,7 +6,7 @@
 
 
 
-export const about = () => {
+export const About = () => {
   return <section></section>
 
 

@@ -17,7 +17,7 @@ export const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-transparent py-5 text-foreground">
       <nav className="container mx-auto flex items-center justify-between px-5 relative">
         <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
-          Manas
+          Manas Mishra
         </a>
 
         {/* Desktop Menu */}

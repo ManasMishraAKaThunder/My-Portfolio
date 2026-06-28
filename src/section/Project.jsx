@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
-import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+import { AnimatedBorderButton } from "@/Components/AnimatedBorderButton";
 const projects = [
   {
     title: "Work Bandhu",

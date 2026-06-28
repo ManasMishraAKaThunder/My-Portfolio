@@ -6,7 +6,7 @@ const projects = [
     title: "Work Bandhu",
     description:
       "Architected a mobile-first job platform serving 500+ blue-collar workers with mobile OTP-based login",
-    image: "/projects/workBandhu.jpeg",
+    image: "/projects/WorkBandhu.jpeg",
     tags: [ "React Native", "Vite", "Tailwind CSS", "Supabase (PostgreSQL + RPC)", "Java REST API", "LangChain"],
     link: "https://expo.dev/accounts/shivamm.shrivastava/projects/work-bandhu/builds/c930bd4f-2d9e-431d-af90-39b2b6b4c825",
     github: "https://github.com/ManasMishraAKaThunder/WORK-BANDHU",
@@ -33,7 +33,7 @@ const projects = [
     title: "Project Management Tool",
     description:
       "A full-stack CRUD application for managing data with secure authentication, RESTful APIs, and a responsive React interface",
-    image: "/projects/crudAppjava.png",
+    image: "/projects/crudAppJava.png",
     tags: ["Java", "Spring Boot", "PostgreSQL", "Redis" , " Tailwindcss"],
     link: "#",
     github: "#",

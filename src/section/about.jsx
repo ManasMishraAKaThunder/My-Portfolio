@@ -40,7 +40,7 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Becoming Best,
               <span className="font-serif italic font-normal text-white">
                 {" "}
                 one component at a time.
@@ -49,30 +49,25 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm currently pursuing a B.Tech in Computer Science, with an expected graduation in 2029.
+                As a backend-focused developer, I enjoy designing secure, scalable, and efficient systems while expanding my knowledge of full-stack development.
+                I have experience working with Java, Spring Boot, React, JavaScript, TypeScript, MySQL, and modern web technologies to build applications that solve real-world problems.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I believe software engineering is about more than writing code—it's about understanding problems, 
+                creating reliable solutions, and continuously improving. That's why I actively work on personal projects,
+                 participate in hackathons, contribute to open-source projects, and challenge myself to learn something new with every project I build.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                I'm a fast learner who enjoys exploring new technologies and adapting to new challenges.
+                My long-term goal is to become a software engineer capable of building complete, high-quality products—from designing robust backend systems to creating intuitive user experiences.
+                I strive to write clean, maintainable code and build software that makes a meaningful impact.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "To be among the best in the industry through continuous learning and execution."
               </p>
             </div>
           </div>

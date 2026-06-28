@@ -95,7 +95,7 @@ export const Hero = () => {
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton onClick={() => window.open("https://drive.google.com/file/d/15hLXFvwpbZZyj-d6rdtn7kOcP9V0mOZ6/view?usp=sharing", "_blank")} />
             </div>
 
             {/* Social Links */}

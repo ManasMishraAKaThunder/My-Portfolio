@@ -2,12 +2,6 @@
 
 
 
+/*intaian steup */
 
 
-
-
-export const Experience = () => {
-  return <section></section>
-
-
-}

@@ -92,7 +92,7 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animation-fade-in animation-delay-300">
-              <Button size="lg">
+              <Button size="lg" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton onClick={() => window.open("https://drive.google.com/file/d/15hLXFvwpbZZyj-d6rdtn7kOcP9V0mOZ6/view?usp=sharing", "_blank")} />

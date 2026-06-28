@@ -33,7 +33,7 @@ export const Navbar = () => {
 
         {/* Desktop CTA button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm" onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}>Contact Me</Button>
         </div>
 
         {/* Mobile menu button */}
@@ -44,12 +44,11 @@ export const Navbar = () => {
         </div>
 
         {/* Mobile menu dropdown */}
-        <div 
-          className={`absolute top-full left-5 right-5 mt-4 md:hidden glass-strong rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 ease-in-out origin-top ${
-            isMobileMenuOpen 
-              ? "opacity-100 translate-y-0 pointer-events-auto visible" 
+        <div
+          className={`absolute top-full left-5 right-5 mt-4 md:hidden glass-strong rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 ease-in-out origin-top ${isMobileMenuOpen
+              ? "opacity-100 translate-y-0 pointer-events-auto visible"
               : "opacity-0 -translate-y-4 pointer-events-none invisible"
-          }`}
+            }`}
         >
           <div className="flex flex-col gap-4 px-6 py-6">
             {navlinks.map((link) => (
@@ -63,7 +62,7 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button size="sm" onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
+            <Button size="sm" onClick={() => { setIsMobileMenuOpen(false); document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }); }}>Contact Me</Button>
           </div>
         </div>
       </nav>

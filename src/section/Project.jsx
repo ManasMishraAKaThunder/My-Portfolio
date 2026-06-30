@@ -27,7 +27,7 @@ const projects = [
     image: "/projects/uberclone.png",
     tags: ["React", "mongoDb", "Tailwind", "Node.js"],
     link: "#",
-    github: "#",
+    github: "https://github.com/ManasMishraAKaThunder/Uber-Clone.git",
   },
   {
     title: "Project Management Tool",
